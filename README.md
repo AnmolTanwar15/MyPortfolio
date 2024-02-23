@@ -11,12 +11,12 @@
 ## Sections 
 ✔️ Summary and About me\
 ✔️ Skills\
-<!-- ✔️ Proficiency\ -->
 ✔️ Work Experience\
 ✔️ Education Timeline\
-<!-- ✔️ Open Source Projects Connected with Github\ -->
 ✔️ Contact me\
 ✔️ Github Profile
+<!-- ✔️ Open Source Projects Connected with Github\ -->
+<!-- ✔️ Proficiency\ -->
 <!-- To view a live example, **[click here](https://sarthak-agrawal.me/)** -->
 <!-- 
 ## Getting Started 🚀
