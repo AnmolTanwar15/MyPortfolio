@@ -1,15 +1,27 @@
 <!--<p>projects works!</p>-->
 <div class="main" id="projects" wmAnimate="landing" aos speed="faster">
-  <!-- <h1 class="project-title">My Work 📂</h1>
-  <img src="https://ghchart.rshah.org/55198b/sarthakgoenka" alt="Sarthak Goenka Github Chart" class="github__chart">
+  <h1 class="project-title text-center">My Work 📂</h1>
+  <!-- <img src="https://ghchart.rshah.org/55198b/sarthakgoenka" alt="Sarthak Goenka Github Chart" class="github__chart">
   <div class="github__chart">
     <app-github-calendar></app-github-calendar>
   </div> -->
-  <div class="repo-cards-div-main">
-    <!-- <app-github-repo-card *ngFor="let project of projects2; let i = index" [github]="project"
-      [index]="i"></app-github-repo-card> -->
-  </div>
+  <!-- <div class="repo-cards-div-main">
+    <app-github-repo-card *ngFor="let project of projects2; let i = index" [github]="project"
+      [index]="i"></app-github-repo-card>
+  </div> -->
   <!--  <button class="project-button" >MoreProject</button>-->
+    <div class="row justify-content-center mt-4" style="gap: 3%;">
+      <div class="col-md-3 m-2" *ngFor="let p of myProjects">
+        <div class="card project-card">
+          <img class="card-img-top p-2" src="{{p.img}}" alt="Card image cap">
+          <div class="card-body">
+            <a class="card-title" href="{{p.href}}" target="_blank">{{p.title}}</a>
+            <p class="card-text pt-3">{{p.des}}</p>
+            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+          </div>
+        </div>
+      </div>
+    </div>
   <div class="project-button"><a class="main-button" href="https://github.com/AnmolTanwar15" target="_blank">More
       Projects</a></div>
 </div>

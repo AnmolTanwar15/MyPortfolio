@@ -63,7 +63,33 @@
     font-size: 30px;
     text-align: center;
   }
-  .repo-cards-div-main{
+  .row{
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   }
+}
+
+.card-img-top{
+  border-radius: 15px;
+  height: 50%;
+  width: 100%;
+
+}
+
+.project-card{
+  box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  // width: 20rem; 
+  // height: 35rem;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+.project-card:hover {
+  transform: scale(1.05); /* Increase scale to create pop-up effect */
+  box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.5);
+}
+.card-title{
+  font-size: 25px;
+  font-weight: 600;
+  text-decoration: underline !important;
+  color: black !important;
 }

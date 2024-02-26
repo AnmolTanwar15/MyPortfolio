@@ -30,6 +30,12 @@ export class ProjectsComponent implements OnInit {
       link: "https://personal-doc.herokuapp.com/",
 
     }
+  ];
+
+  myProjects = [
+    {title:"ErpWise",des:"ErpWise provides intuitive distribution software tailored for small to medium-sized businesses in the UK, optimizing inventory management, sales, and logistics with smart tools for efficiency and growth.",img:"../../../assets/images/erp.png",href:"http://159.65.80.24/auth/login"},
+    {title:"eFleet Systems",des:"The eFleet Systems application is a comprehensive software solution designed to efficiently manage fleets of vehicles and the consignments they carry. It provides a centralized platform for businesses involved in transportation and logistics to monitor, track, and optimize their operations.",img:"../../../assets/images/eFleet.png",href:"https://www.efleetsystems.com/"},
+    {title:"MyGames11",des:"MyGames11 Application is an immersive platform that allows sports enthusiasts to engage in virtual competitions by creating and managing their own fantasy sports teams. With a user-friendly interface and robust features, this application brings the excitement of professional sports leagues directly to users' fingertips.",img:"../../../assets/images/mg11.png",href:"https://www.mygames11.com/"},
   ]
   constructor(public apollo: Apollo) { }
 
