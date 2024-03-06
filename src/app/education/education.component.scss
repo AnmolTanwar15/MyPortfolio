@@ -48,10 +48,10 @@
 }
 .prt_btn, .prt_heading {
   display: inline-block;
-  -webkit-transition: all .3s;
-  -moz-transition: all .3s;
-  -ms-transition: all .3s;
-  -o-transition: all .3s;
+  --webkit-transition: all .3s;
+  --moz-transition: all .3s;
+  --ms-transition: all .3s;
+  --o-transition: all .3s;
 }
 .prt_heading h1 {
   font-size: 40px;
@@ -221,7 +221,7 @@
   width: 15px;
   border-radius: 100%;
   border: 0px solid #fff;
-  left: -41px;
+  left: -39.5px;
   -o-transition: all .3s;
   transition: all .3s;
   z-index: 100;
@@ -232,9 +232,9 @@
 
 .prt_about_learnbox_left,
 .prt_about_learnbox_right:hover:after {
-  -webkit-transition: all .3s;
-  -moz-transition: all .3s;
-  -ms-transition: all .3s
+  --webkit-transition: all .3s;
+  --moz-transition: all .3s;
+  --ms-transition: all .3s
 }
 
 .prt_about_learnbox_right:hover:after {
@@ -256,9 +256,9 @@
 
 .prt_about_learnbox_left:after,
 .prt_about_learnbox_left:hover:after {
-  -webkit-transition: all .3s;
-  -moz-transition: all .3s;
-  -ms-transition: all .3s
+  --webkit-transition: all .3s;
+  --moz-transition: all .3s;
+  --ms-transition: all .3s
 }
 
 .prt_about_learnbox_left:after {
@@ -267,7 +267,7 @@
   width: 15px;
   border-radius: 100%;
   border: 0px solid #fff;
-  right: -39px;
+  right: -39.5px;
   -o-transition: all .3s;
   transition: all .3s;
   z-index: 100;
